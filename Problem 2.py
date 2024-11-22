@@ -1,14 +1,17 @@
 import time
 
 
-start = time.time()
+start = time.time() # Time start
 
 a = 1
 b = 2
 c = 0
 sum = 2
 
-while c < 4000000:
+while c < 4000000: # Limit
+
+    # Code to generate fibonacci sequence
+    
     c = a + b
 
     if c % 2 == 0:
@@ -17,7 +20,7 @@ while c < 4000000:
     a = b
     b = c
 
-end = time.time()
+end = time.time() # Time stop
 length = end - start
 
 print(sum)
