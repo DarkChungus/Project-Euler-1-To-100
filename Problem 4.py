@@ -1,6 +1,6 @@
 import time
 
-def is_palindrome(n):
+def is_palindrome(n): # Fast method to check if anything is palindrome.
     if str(n)[::-1] == str(n):
         return True
     else:
@@ -9,9 +9,9 @@ def is_palindrome(n):
 
 s = 0
 
-start = time.time()
+start = time.time() 
 
-for i in range(999, 100, -1):
+for i in range(999, 100, -1): # Starting from the biggest 3-digit number as the question asks for the "greatest".
     for j in range(999, 100, -1):
         if is_palindrome(i*j):
             if (i*j) > s:
