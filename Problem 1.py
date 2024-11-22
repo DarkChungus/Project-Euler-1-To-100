@@ -1,6 +1,6 @@
 import time
 
-def is_multiple(n):
+def is_multiple(n): # Function for checking if it is a multiple.
     if n%3 == 0 or n%5 == 0:
         return True
     else:
@@ -9,13 +9,13 @@ def is_multiple(n):
 
 s = 0
 
-start = time.time()
+start = time.time() # Time start
 
-for i in range(1, 1000):
+for i in range(1, 1000): # The limit for the problem
     if is_multiple(i):
         s += i
 
-end = time.time()
+end = time.time() # Time end
 length = end - start
 
 print(s)
