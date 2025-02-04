@@ -1,1 +1,3 @@
-These are some project euler codes, upto problem 100. Don't worry though, I have solved those above 100 too, but you can only access my codes if you have solved them(and I have posted on the thread) too. :)
+<div align="center">
+  <b>PROJECT EULER</b>
+</div>
