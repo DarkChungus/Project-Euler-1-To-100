@@ -1,0 +1,4 @@
+We know pythagorean triplets can be expressed as a^2 + b^2, a^2 - b^2, 2ab.
+Note that a^2 - b^2 > 0 <==> a>b.
+Further calculations, taking a = 2xy, b = x^2 - y^2, and c = x^2 + y^2 leads to x(x+y) = 500 giving a solution (x,y) = (20,5).
+We then replace the values in a, b, and c to get our desired answer.
